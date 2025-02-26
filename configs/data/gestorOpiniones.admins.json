@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "67be2e463e90a6a77fe10d68"
+  },
+  "name": "Carlos",
+  "surname": "Jiménez",
+  "username": "JimenezC",
+  "email": "carlosjimenez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$gNoqQmq95K4KrYevYNQ/6g$2Zx2TR8ybM9fNDcAmkGFULRng0rByVXDMiRBm0PQjqg",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T20:55:34.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T20:55:34.161Z"
+  },
+  "__v": 0
+}]

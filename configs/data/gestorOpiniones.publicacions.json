@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "67be367af7c321758fa8c653"
+  },
+  "title": "Prueba 1",
+  "categories": [
+    {
+      "$oid": "67be2e463e90a6a77fe10d6e"
+    }
+  ],
+  "text": "P1",
+  "status": true,
+  "userId": {
+    "$oid": "67be2e463e90a6a77fe10d6b"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T21:30:34.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:30:34.118Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be3706a021b8ef369b48fb"
+  },
+  "title": "Prueba 2",
+  "categories": [
+    {
+      "$oid": "67be2e463e90a6a77fe10d6e"
+    }
+  ],
+  "text": "P2",
+  "status": true,
+  "userId": {
+    "$oid": "67be2e463e90a6a77fe10d6b"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T21:32:54.562Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:34:03.324Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be378aa021b8ef369b490e"
+  },
+  "title": "Prueba 3",
+  "categories": [
+    {
+      "$oid": "67be2e463e90a6a77fe10d6e"
+    }
+  ],
+  "text": "P3",
+  "status": false,
+  "userId": {
+    "$oid": "67be2e463e90a6a77fe10d6b"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T21:35:06.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:48:06.702Z"
+  }
+}]

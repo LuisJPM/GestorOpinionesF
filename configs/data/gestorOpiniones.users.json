@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67be2e463e90a6a77fe10d6b"
+  },
+  "name": "Luis",
+  "surname": "Perez",
+  "username": "LuisP123",
+  "email": "luisperez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ZWUnXlTJ9+EVULNXYK6KAw$JgPr/SscN3p7ZdY/iGErgq3zb3ZrEH6QeOW1XqF8LSg",
+  "phone": "98765432",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T20:55:34.272Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T22:17:08.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67be392834459eee800e74dc"
+  },
+  "name": "Luis",
+  "surname": "Perez",
+  "username": "LuisP456",
+  "email": "luisperez123@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$QaJdET1tPzOgA2E/rP4M7Q$gC3MQvRMXe87hid02tU5AJuQUdwWdyOzxNzsxqEaovI",
+  "phone": "98765432",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T21:42:00.634Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:42:00.634Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "b9640916-2a68-4704-b30f-67cb0f1736b8",
+		"name": "gestorOpiniones",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41656904"
+	},
+	"item": [
+		{
+			"name": "admins",
+			"item": [
+				{
+					"name": "categories",
+					"item": [
+						{
+							"name": "saveCategory",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlMmU0NjNlOTBhNmE3N2ZlMTBkNjgiLCJpYXQiOjE3NDA1MTkxMjksImV4cCI6MTc0MDUyMjcyOX0.Y5tBuTGCpUiBA_6-JmU0F5HbUEk8uaAfQwdMR0r00Fs",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Tecnología\",\r\n    \"description\": \"Avances en tecnología.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3003/gestorOpiniones/v1/categories/saveCategory",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"gestorOpiniones",
+										"v1",
+										"categories",
+										"saveCategory"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "putCategoryById",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkMmQzNzJhYjA3YTA2MDJmMmI2YjciLCJpYXQiOjE3NDA0NTEyMTgsImV4cCI6MTc0MDQ1NDgxOH0.geti-rXXwpJe35Y10byDUU0n2ivZqqXKNaBXvGVGxdI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Música\",\r\n    \"description\": \"Noticias sobre música.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3003/gestorOpiniones/v1/categories/putCategoryById/67bd2d9e27d62c5cdcb04fc3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"gestorOpiniones",
+										"v1",
+										"categories",
+										"putCategoryById",
+										"67bd2d9e27d62c5cdcb04fc3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "account profile",
+					"item": [
+						{
+							"name": "login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"borork@gmail.com\",\r\n  \"password\": \"borork027\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3003/gestorOpiniones/v1/auth/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"gestorOpiniones",
+										"v1",
+										"auth",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "putAdminById",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "x-token",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjYWEwYmMwOGM5MDFiY2U1YjE0NzciLCJpYXQiOjE3NDA0MTc2NjMsImV4cCI6MTc0MDQyMTI2M30.VSPuakQA7GMS1iz5kE_aEc8Yl7T_6Qv4q2txHSi-ZtQ",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Carlos\",\n  \"surname\": \"Jiménez\",\n  \"username\": \"JimenezC\",\n  \"email\": \"carlosjimenez@gmail.com\",\n  \"password\": \"carlosjimenez027\",\n  \"phone\": \"12345678\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3003/gestorOpiniones/v1/admins/putAdminById/67bcaa7cc08c901bce5b1486",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3003",
+									"path": [
+										"gestorOpiniones",
+										"v1",
+										"admins",
+										"putAdminById",
+										"67bcaa7cc08c901bce5b1486"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "67be2e463e90a6a77fe10d6e"
+  },
+  "name": "Tecnología",
+  "description": "Todo sobre avances tecnológicos y noticias.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-25T20:55:34.279Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T20:55:34.279Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be36eda021b8ef369b48f7"
+  },
+  "name": "Ciencia Ficción",
+  "description": "Mundos imaginarios y aventuras futuristas.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-25T21:32:29.218Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T21:34:03.338Z"
+  }
+}]
